@@ -21,5 +21,4 @@ ENV GALAXY_ROOT=/galaxy \
 
 ADD run_galaxy.bash /run_galaxy.bash
 EXPOSE 8080
-USER 1001
 CMD /run_galaxy.bash
